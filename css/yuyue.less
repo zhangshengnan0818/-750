@@ -1,0 +1,125 @@
+@head:88px;
+@foot:98px;
+@yellow:#c39528;
+/*导航*/
+.main{
+    li{
+      height: 80px;
+      line-height: 80px;
+      width: 120px;
+      margin: 0 auto;
+      font-size: 30px;
+      &.active{
+        border-bottom: 1px solid @yellow;
+      }
+    }
+  >div>div{
+    background-color: #fff;
+  }
+}
+.navTabs{
+  background-color: #fff;
+  margin: 8px 0 12px 0;
+}
+/*tab内容*/
+.tab-content{
+  position: relative;
+  height: 455px;
+}
+#wait,#appoint{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  background-color: #fff;
+  transition: opacity 1s linear;
+}
+.curren{
+  opacity: 1 !important;
+  //width: 100% !important;
+}
+.user{
+  .userTop,.userFoot{
+    p{
+      position: relative;
+      span{
+        position: absolute;
+      }
+    }
+  }
+  .userTop{
+    p{
+      height: 80px;
+      line-height: 80px;
+      padding-left: 91px;
+    }
+    text-align: left;
+    font-size: 30px;
+    span{
+      width: 38px;
+      height: 38px;
+      background: url("../img/用户@2x.png") 0 0 no-repeat;
+      margin:21px 16px 21px -54px;
+    }
+    a{
+      position: absolute;
+      right: 0;
+      color: @yellow;
+      padding-right: 71px;
+      span{
+        right: 0;
+        margin-top: 28px;
+        background: url("../img/more@2x.png") 0 0 no-repeat;
+      }
+    }
+  }
+  .userContent{
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 26px;
+    text-align: left;
+    padding: 36px 40px;
+    .time{
+      padding:58px 0 48px 62px;
+
+      span{
+        width: 31px;
+        height: 31px;
+        margin: 0 0 0 -65px;
+        background: url("../img/时间@2x.png") 0 0 no-repeat;
+      }
+    }
+    .tips{
+      font-size: 24px;
+      color: #666;
+    }
+  }
+  .userFoot{
+    p{
+      height: 90px;
+      line-height: 90px;
+      font-size: 32px;
+      text-align: left;
+      margin-left: 80px;
+      span{
+        width: 30px;
+        height: 34px;
+        margin:28px 0 0 -46px;
+        background: url("../img/电话@2x.png") 0 0 no-repeat;
+        box-shadow: none;
+      }
+
+    }
+    span{
+      float: right;
+      margin: -90px 0;
+      height: 90px;
+      line-height: 90px;
+      font-size: 32px;
+      color: @yellow;
+      box-shadow: 0 4px 6px #e6e6e6;
+      width: 274px;
+    }
+  }
+}

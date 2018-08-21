@@ -1,0 +1,53 @@
+.main > div > div {
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+.footer {
+  padding: 0;
+  font-weight: normal;
+}
+.footer div p {
+  height: 98px;
+  line-height: 98px;
+  font-size: 34px;
+  text-align: left;
+  margin-left: 20px;
+}
+.footer div p span {
+  box-shadow: none;
+  margin: 0;
+}
+.footer div span {
+  float: right;
+  margin: -98px 0;
+  height: 98px;
+  line-height: 98px;
+  font-size: 34px;
+  color: #c39528;
+  box-shadow: 0 4px 6px #e6e6e6;
+  width: 274px;
+}
+/*主体内容*/
+.main div p {
+  height: 80px;
+  line-height: 80px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  font-size: 30px;
+}
+.main div p span {
+  width: 16px;
+  height: 32px;
+  background: url("../img/返回@2x.png") 0 0 no-repeat;
+  left: 24px;
+  top: 24px;
+}
+div.content p {
+  font-size: 32px;
+  text-align: left;
+  height: 70px;
+  line-height: 70px;
+  margin-top: 9px;
+  border: 0;
+}
+(node:12744) [DEP0026] DeprecationWarning: util.print is deprecated. Use console.log instead.
